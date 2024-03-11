@@ -1,4 +1,4 @@
-package org.jetbrains.assignment.repository;
+package org.jetbrains.assignment.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
