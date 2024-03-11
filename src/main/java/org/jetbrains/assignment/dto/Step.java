@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class Step {
-    private Sides sides;
+    private Direction direction;
     private Integer distance;
 }

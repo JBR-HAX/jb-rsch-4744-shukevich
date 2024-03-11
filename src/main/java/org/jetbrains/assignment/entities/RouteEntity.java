@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Route {
+public class RouteEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -23,7 +23,7 @@ public class Route {
     @OneToOne
     @MapsId
     @JoinColumn(name = "robot_id")
-    private Robot robot;
+    private RobotEntity robotEntity;
 
 
 

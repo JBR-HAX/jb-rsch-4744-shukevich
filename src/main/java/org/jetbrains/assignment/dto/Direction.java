@@ -1,6 +1,6 @@
 package org.jetbrains.assignment.dto;
 
-public enum Sides {
+public enum Direction {
     NORTH,
     SOUTH,
     EAST,

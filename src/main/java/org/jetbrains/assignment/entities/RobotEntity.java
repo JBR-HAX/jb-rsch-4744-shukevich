@@ -7,15 +7,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Robot {
+public class RobotEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @OneToOne(mappedBy = "robot", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "robotEntity", cascade = CascadeType.ALL)
     @PrimaryKeyJoinColumn
-    private Route route;
+    private RouteEntity routeEntity;
 
 
 }
